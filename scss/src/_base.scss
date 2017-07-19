@@ -1,0 +1,24 @@
+// base 
+///////
+
+* {
+  box-sizing: inherit;
+  &:after, &:before {
+    box-sizing: inherit;
+  }
+}
+
+html {
+  box-sizing: border-box;
+  font-family: serif;
+  font-size: 111.5%;
+  -webkit-font-smoothing: antialiased;
+}
+
+// Default Body
+
+body {
+  margin: 0;
+  color: #000000;
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}

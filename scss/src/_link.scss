@@ -1,0 +1,11 @@
+
+
+a {
+	color: #CF000F;
+	text-decoration : none;
+
+	&:focus,
+	&:hover {
+         color: #CF000F;
+	}
+}

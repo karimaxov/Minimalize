@@ -1,0 +1,21 @@
+code {
+	background: #95a5a6;
+	font-size: 86%;
+	margin: 0 .2rem;
+	padding: .2rem .5rem;
+	white-space: nowrap;
+	color: #34495e;
+	font-weight: bold;
+}
+pre {
+	background: #95a5a6;
+	border-left: .3rem solid #34495e;
+	overflow-y: hidden;
+
+	& > code {
+		border-radius: 0;
+		display: block;
+		padding: 1rem 1.5rem;
+		white-space: pre;
+}
+}
