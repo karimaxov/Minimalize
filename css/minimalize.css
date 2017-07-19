@@ -2835,6 +2835,18 @@ blockquote {
       outline-offset: 15px;
       text-shadow: 1px 1px 2px #427388; }
 
+.btn-groupe {
+  content: "";
+  clear: both;
+  display: table;
+  background-color: #fff;
+  margin: none;
+  padding: 0; }
+
+.btn-group button, input:not(:last-child) {
+  border-right: none;
+  /* Prevent double borders */ }
+
 code {
   background: #95a5a6;
   font-size: 86%;
@@ -3204,8 +3216,9 @@ ul {
     background-color: #fff; } }
 @media (max-width: 768px) {
   .brand img {
-    width: 80%;
-    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
     background-size: 100% auto !important; } }
 .btn {
   margin-bottom: 1.0rem;

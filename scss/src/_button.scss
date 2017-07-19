@@ -155,3 +155,17 @@
   }
 }
 
+
+.btn-groupe {
+  content: "";
+  clear: both;
+  display: table;
+  background-color : #fff;
+  margin: none;
+  padding: 0;
+
+}
+
+.btn-group button,input:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}

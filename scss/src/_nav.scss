@@ -164,8 +164,9 @@
 
 @media (max-width: 768px){
   .brand img {
-    width: 80%;
-    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15em;
     background-size: 100% auto !important;
   }
 }
