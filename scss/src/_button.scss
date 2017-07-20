@@ -160,7 +160,7 @@
   content: "";
   clear: both;
   display: table;
-  background-color : #fff;
+  background-color : #ffffff;
   margin: none;
   padding: 0;
 
@@ -168,4 +168,5 @@
 
 .btn-group button,input:not(:last-child) {
     border-right: none; /* Prevent double borders */
+    background-color: #fff;
 }

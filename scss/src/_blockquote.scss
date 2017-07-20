@@ -18,3 +18,9 @@ blockquote {
     display: inline;
   }
 }
+
+@media screen and (min-width: 790px) {
+  blockquote {
+    width: 100%;
+  }
+}

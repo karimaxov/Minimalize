@@ -1,0 +1,22 @@
+{
+  "name": "minimalize",
+  "description": "css micro framework",
+  "main": "index.js",
+  "authors": [
+    "Aouane Amine <amineaouane1992@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "micro",
+    "css",
+    "framework"
+  ],
+  "homepage": "https://github.com/amine1107/Minimalize",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
