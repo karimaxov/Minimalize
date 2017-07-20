@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+  <title>Minimalize | Minimal Css Framework</title>
+  <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/ico" href="img/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="css/minimalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+
+
+<div class="container">
+<div class="row">
+           <div class="col-wd-12">
+              <div class="col center">
+              <img src="img/logo.png">
+           <h3>Afordobal Micro-Css</h3>
+           <p>Version Beta</p>
+           <br><br>
+           <input type="button" value="See on github" class="btn asphalt hover" onclick="window.location.href='https://github.com/amine1107/Minimalize'" />
+            </div>
+        </div>
+        </div>
+</div>
+</div>
+
+<div class="container">
+
+  <div class="col-wd-7">
+    <div class="col">
+    <h3>Quick Start :</h3>
+    <h4>Clone it using git</h4>
+    <blockquote>
+      <p>$ git clone https://github.com/amine1107/Minimalize</p>
+    </blockquote>
+    <h4>Install with npm</h4>
+    <blockquote>
+      <p>$ npm install minimalize</p>
+    </blockquote>
+     <h4>Install with bower</h4>
+    <blockquote>
+      <p>$ bower install minimalize</p>
+    </blockquote>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid">
+  <div class="col-wd-8">
+    <div class="col">
+    <h3>Getting Started :</h3>
+    <p>After downloading the framework, you will find 4 files.</p>
+    <ul>
+      <li>Css</li>
+      <li>Scss : which contains the scss version of the framework</li>
+      <li>Js</li>
+      <li>Fonts</li>
+    </ul>
+    <h3>Usage :</h3>
+    <p>After all is well, you may mention minimalize using any method.</p>
+    <pre><code>&lt;link rel"stylesheet" type="text/css" href="css/minimalize.css">&lt;/link&gt 
+</code></pre>
+    <h3>Typography :</h3>
+    <blockquote>
+      <h1>Heading</h1>
+      <h2>Heading</h2>
+      <h3>Heading</h3>
+      <h4>Heading</h4>
+    </blockquote>
+    <h4>Code :</h4>
+    <pre><code>
+      &lt;!-- For title and more --&gt
+
+          &lt;h1>Heading&lt;/h1&gt
+          &lt;h2>Heading&lt;/h2&gt
+          &lt;h3>Heading&lt;/h3&gt
+          &lt;h4>Heading&lt;/h4&gt
+
+      &lt;!-- Paragraphe --&gt
+      
+          &lt;p>paragraphe&lt;/p&gt    
+    </code></pre>
+
+    <h3>Button :</h3>
+    <p>Minimalize Offers you a vast choice among the buttons</p>
+    <p>The integration of the button is very simple, the class "btn" is by default.
+    You can see the example above</p>
+    <h4>Default button</h4>
+    <h4>Code :</h4>
+    <button class="btn">Default Button</button>
+     <pre><code>
+      &lt;!-- Default button --&gt
+
+          &lt;button class="btn">Default Button&lt;/button&gt
+  
+    </code></pre>
+    <p>You can add class types for example if you want the button to be primary you add "btn primary"</p>
+    <div class="btn-groupe">
+      <button class="btn primary">Primary</button>
+      <button class="btn success">Success</button>
+      <button class="btn warning">Warning</button>
+      <button class="btn disabled">Disabled</button>
+    </div>
+    <h4>Code :</h4>
+    <pre><code>
+      &lt;!-- button with class --&gt
+
+          &lt;button class="btn primary">primary&lt;/button&gt
+          &lt;button class="btn success">success&lt;/button&gt
+          &lt;button class="btn warning">warning&lt;/button&gt
+          &lt;button class="btn disabled">disabled&lt;/button&gt
+  
+    </code></pre>
+    <h3>More Button Exemple</h3>
+    <div class="btn-groupe">
+      <button class="btn">Default Button</button>
+      <button class="btn radius-8">Button with radius</button>
+      <button class="btn radius-8 emerald">Button with radius color</button>
+      <button class="btn radius-8 hover asphalt">Button with radius color and hover</button>
+    </div>
+    <p>Adding classes to minimize is very simple</p>
+     <pre><code>
+      &lt;!-- button with class --&gt
+
+          &lt;button class="btn">Default Button&lt;/button&gt
+          &lt;button class="btn radius-8">Button with radius&lt;/button&gt
+          &lt;button class="btn radius-8 emerald">Button with radius color&lt;/button&gt
+          &lt;button class="btn radius-8 hover asphalt">Button with radius color and hover&lt;/button&gt
+  
+    </code></pre>
+    <h4>Button Radius :</h4>
+    <button class="btn radius-6">Button radius-6</button>
+    <button class="btn radius-8">Button radius-8</button>
+    <button class="btn radius-10">Button radius-10</button>
+    <h4>Code :</h4>
+    <pre><code>
+      &lt;!-- button radius --&gt
+
+          &lt;button class="btn radius-6 ">Button&lt;/button&gt
+          &lt;button class="btn radius-8">Button&lt;/button&gt
+          &lt;button class="btn radius-10">Button&lt;/button&gt
+  
+    </code></pre>
+    <h4>Largest and smallest button :</h4>
+    <button class="btn vsmall"> very small</button>
+    <button class="btn small">small</button>
+    <button class="btn largest">largest</button>
+    <button class="btn vlargest">very largest</button>
+    <h4>Code :</h4>
+    <pre><code>
+      &lt;!-- button  --&gt
+
+          &lt;button class="btn vsmall ">very small&lt;/button&gt
+          &lt;button class="btn small">small&lt;/button&gt
+          &lt;button class="btn large">large&lt;/button&gt
+          &lt;button class="btn vlarge">very large&lt;/button&gt
+  
+    </code></pre>
+    <h4>Button Colors</h4>
+    <p>Minimalize use 9 default colors</p>
+    <div class="btn-groupe">
+      <button class="btn turquoise">button turquoise</button>
+      <button class="btn emerald">button emerald</button>
+      <button class="btn rever">button rever</button>
+      <button class="btn amethyst">button amethyst</button>
+      <button class="btn asphalt">button asphalt</button>
+      <button class="btn blue">button blue</button>
+      <button class="btn red">button red</button>
+      <button class="btn orange">button orange</button>
+      <button class="btn black">button black</button>
+    </div>   
+</div>
+</div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-wd-8">
+    <div class="col">
+      <h2>Navbar</h2>
+      <p>Minimalize menu is very simple, the framework offers you a classic and responsive menu</p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container">
+<div class="col">
+  <div class="navbar-component">
+      <!-- Class `area` is a container -->
+      <div class="navbar area">
+        <!-- Logo -->
+        <a href="index.html" class="brand">brand</a>
+        <!-- List of links -->
+        <nav role="navigation" id="navigation" class="list">
+          <a href="#" class="item -link">link1</a>
+          <a href="#" class="item -link">link2</a>
+          <a href="#" class="item -link">link3</a>
+        </nav>
+        <!-- Button to toggle the display menu  -->
+        <button data-collapse data-target="#navigation" class="toggle">
+          <!-- Hamburger icon -->
+          <span class="icon"></span>
+        </button>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-wd-8">
+    <div class="col">
+      <h3>Code :</h3>
+      <pre><code>
+                &lt;!-- navbar  --&gt
+
+          &lt;div class="navbar-component">
+
+                 &lt;!-- class 'area' is a container  --&gt
+
+              &lt;div class="navbar area">
+
+                  &lt;!-- logo  --&gt
+
+                  &lt;a href="#" class="brand">brand&lt;/a&gt
+
+                  &lt;!-- list of links  --&gt
+
+                  &lt;nav role="navigation" id="navigation" class="list">
+                      &lt;a href="#" class="item -link">link1&lt;/a&gt
+                      &lt;a href="#" class="item -link">link2&lt;/a&gt
+                      &lt;a href="#" class="item -link">link3&lt;/a&gt
+                  &lt;/nav&gt
+
+                  &lt;!-- Button to toggle the display menu  --&gt
+
+                  &lt;button data-collapse data-target="#navigation" class="toggle">
+
+                  &lt;!-- Hamburger icon  --&gt
+
+                      &lt;span class="icon">&lt;/span&gt
+                  &lt;/button&gt
+              &lt;/div&gt
+          &lt;/div&gt
+          
+  
+    </code></pre>
+    <h1>Grid system : </h1>
+    <p>Minimalize offers you a flexible awesome 12 grid,and 2 containers</p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-wd-12">
+            <div class="col center">12 Column</div>
+        </div>
+
+        <div class="col-wd-6">
+            <div class="col center">6 Column</div>
+        </div>
+        <div class="col-wd-6">
+            <div class="col center">6 Column</div>
+        </div>
+
+        <div class="col-wd-6 col-md-4">
+            <div class="col center">4 Column</div>
+        </div>
+        <div class="col-wd-6 col-md-4">
+            <div class="col center">4 Column</div>
+        </div>
+        <div class="col-wd-12 col-md-4">
+            <div class="col center">4 Column</div>
+        </div>
+
+        <div class="col-wd-6 col-md-3">
+            <div class="col center">3 Column</div>
+        </div>
+        <div class="col-wd-6 col-md-3">
+            <div class="col center">3 Column</div>
+        </div>
+        <div class="col-wd-6 col-md-3">
+            <div class="col center">3 Column</div>
+        </div>
+        <div class="col-wd-6 col-md-3">
+            <div class="col center">3 Column</div>
+        </div>
+
+        <div class="col-wd-6 col-md-4 col-sm-2">
+            <div class="col center">2 Column</div>
+        </div>
+        <div class="col-wd-6 col-md-4 col-sm-2">
+            <div class="col center">2 Column</div>
+        </div>
+        <div class="col-wd-6 col-md-4 col-sm-2">
+            <div class="col center">2 Column</div>
+        </div>
+        <div class="col-wd-6 col-md-4 col-sm-2">
+            <div class="col center">2 Column</div>
+        </div>
+        <div class="col-wd-6 col-md-4 col-sm-2">
+            <div class="col center">2 Column</div>
+        </div>
+        <div class="col-wd-6 col-md-4 col-sm-2">
+            <div class="col center">2 Column</div>
+        </div>
+
+        <div class="col-wd-3 col-md-2 col-sm-1">
+            <div class="col center">1</div>
+        </div>
+        <div class="col-wd-3 col-md-2 col-sm-1">
+            <div class="col center">1</div>
+        </div>
+        <div class="col-wd-3 col-md-2 col-sm-1">
+            <div class="col center">1</div>
+        </div>
+        <div class="col-wd-3 col-md-2 col-sm-1">
+            <div class="col center">1</div>
+        </div>
+        <div class="col-wd-3 col-md-2 col-sm-1">
+            <div class="col center">1</div>
+        </div>
+        <div class="col-wd-3 col-md-2 col-sm-1">
+            <div class="col center">1</div>
+        </div>
+        <div class="col-wd-3 col-md-2 col-sm-1">
+            <div class="col center">1</div>
+        </div>
+        <div class="col-wd-3 col-md-2 col-sm-1">
+            <div class="col center">1</div>
+        </div>
+        <div class="col-wd-3 col-md-2 col-sm-1">
+            <div class="col center">1</div>
+        </div>
+        <div class="col-wd-3 col-md-2 col-sm-1">
+            <div class="col center">1</div>
+        </div>
+        <div class="col-wd-3 col-md-2 col-sm-1">
+            <div class="col center">1</div>
+        </div>
+        <div class="col-wd-3 col-md-2 col-sm-1">
+            <div class="col center">1</div>
+        </div>
+
+    </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-wd-8">
+      <div class="col">
+      <h3>How does this work?</h3>
+      <pre><code>
+      &lt;!-- default grid system --&gt
+
+          &lt;div class="container ">
+              &lt;div class="row">
+                  &lt;div class="col-wd-12 col-md-4">
+                       &lt;div class="col">
+                       this is 6 colmun
+                       &lt;/div&gt
+                  &lt;/div&gt
+              &lt;/div&gt    
+          &lt;/div&gt
+          
+  
+    </code></pre>
+    <p>You can center the text of the colmun by the class "col center"</p>
+      </div>
+  </div>
+      <div class="col-wd-12 col-md-4">
+  <h3>Demo :</h3>
+    <div class="col center">
+      this is part 3 for 4 colmun
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-wd-8">
+      <div class="col">
+      <h1>Tables :</h1>
+      <p>Minimalize offers you flat default  table</p>
+      <table>
+  <tr>
+    <th>City</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+  </tr>
+  <tr>
+    <td>Ain Temouchent</td>
+    <td>Aouane</td>
+    <td>Amine</td>
+  </tr>
+  <tr>
+    <td>Algiers</td>
+    <td>Ks</td>
+    <td>Raouf</td>
+  </tr>
+  <tr>
+    <td>Boumerdes</td>
+    <td>koussa</td>
+    <td>Fella</td>
+  </tr>
+</table>
+      </div>
+    </div>
+  </div>
+</div>      
+
+
+       
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/minimalize.js"></script>
+</body>
+</html>
