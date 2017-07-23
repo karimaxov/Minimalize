@@ -108,6 +108,12 @@
       border: 2px solid #3D8EB9;
       color: #34495e;
     }
+    &.fruit {
+      background: #e96443;  
+      background: -webkit-linear-gradient(to right, #904e95, #e96443);  
+      background: linear-gradient(to right, #904e95, #e96443); 
+      color : #fff;
+    }
     &.red {
       border: 2px solid #E3000E;
       color: #E3000E;
